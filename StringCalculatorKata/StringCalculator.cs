@@ -6,7 +6,16 @@ namespace StringCalculatorKata
     {
         public int Add(string v)
         {
-            return 0;
+            if (v == "")
+            {
+                //var x = "5,2".Split(",");
+                //x = ["5", "2"];
+
+                return 0;
+            }
+            return int.Parse(v);
+           
         }
+
     }
 }
